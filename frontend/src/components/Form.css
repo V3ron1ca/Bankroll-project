@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap");
+
+#add-client-form {
+
+    height: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+    
+}
+
+.form-container {
+  min-width: none;
+}
+
+#formularz {
+    background-color: black;
+    border-radius: 15px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0,.5);
+    padding-right: 10px;
+    padding-left: 5px;
+    margin: 10px;
+}
+
+.wrapper {
+    margin: 0 0 20px 0;
+    position: center;
+}
+
+.wrapper input {
+    color: white;
+}
+
+.wrapper button {
+    color: white;
+} 
+
+.lbl-tb {
+    color: #f9fbfb;
+    font-size: 15px;
+    text-transform: uppercase; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.frm-ctrl {
+    color: white;
+    background: rgba(0,0,0,.5);
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #2ceef0;
+    border-radius: 3px;
+    outline: none;
+    font-family: Calibri;
+    top: 50%;
+    left: 60%;
+    display: block;
+  }
+  
+  .tb {
+    width: 300px;
+    font-size: 19px;
+  }
+  input:-webkit-autofill,
+  input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+  }
+  .button-style {
+    width: 300px;
+    height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.2s
+  }
+  
+  .button-style:hover {
+    border-color: #2ceef0;
+    background: #2ceef0;
+  }
+  
+  .button-style:active {
+    border: 1px solid #2ceef0;
+  }
+
+  .grid-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-form2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .small-button {
+    width: auto;
+    display: inline-block;
+  }
+
+  .input-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .dropdown2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .dropdown-button {
+    margin: 5px;
+    padding: 0;
+    width: 32px;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .dropdown-list {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 300px;
+    z-index: 2;
+    height: 270px;
+    overflow-y: auto;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .dropdown-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+  .dropdown-list li {
+    padding: 8px 12px;
+  }
+  
+  .dropdown-list li:hover {
+    background-color: rgba(0, 0, 0, 0.14);
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,92 @@
+
+.k23 {
+  margin-left:auto;
+  margin-right:auto;
+  width:960px;
+
+}
+.search-bar2 {
+    width: 100%;
+    max-width: 600px;
+    background: rgba(51, 46, 46, 0.5);
+    display: inline-flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 8px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right:auto; 
+    width:960px;
+    }
+   
+    .search-bar2 input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 5px 2px;
+    font-size: 15px;
+    color: #ecebf3;
+    }
+    
+    ::placeholder {
+        color: blueviolet;
+    }
+    
+    .search-bar2 button  {
+        border-radius: 50%;
+    }
+
+    /* ------------------------------------------------------------------ */
+ 
+    .date-picker {
+        max-width: 400px;
+        height: 40px;
+        margin: 10px ;
+        border-radius: 20px;
+        display: inline-flex; 
+        margin-left: 30%;
+    }
+
+    .date-picker .selected-date1 {
+        width: 100%;
+        height: 100%;
+        margin-right: 20px;
+        border-radius: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: rgba(126, 119, 119, 0.5);
+        color: #f7f6f6;
+        font-size: 28px;
+    }
+
+    .date-picker .selected-date2 {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: rgba(126, 119, 119, 0.5);
+        color: #f8f4f4;
+        font-size: 28px;
+    }
+
+.search-button  {
+    margin-left: 15px;
+    margin-top: 3px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background: rgba(51, 46, 46, 0.5);
+
+}
+
+.input {
+    border-radius: 20px;
+    background: rgba(51, 46, 46, 0.5);
+    max-width: 200px;
+    height: 40px;
+}

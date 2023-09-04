@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap");
+.add-payment-row {
+  margin-left:auto;
+  margin-right:auto;
+  width:960px;
+}
+#add-payment-form {
+    width: 400px;
+    height: 10px;
+    position: absolute;
+    top: 20%;
+    left: 39%;
+}
+
+#formularz1 {
+    background-color: black;
+    border-radius: 15px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0,.5);
+    padding: 15px;
+}
+
+.wrapper {
+    margin: 0 0 20px 0;
+    position: center
+}
+
+.lbl-tb {
+    color: #2ceef0;
+    font-size: 15px;
+    text-transform: uppercase; 
+    font-family: 'Poppins', sans-serif;
+}
+
+  .tb {
+    width: 300px;
+    font-size: 19px;
+  }
+
+  .addPayment1 {
+    width: 300px;
+    height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid #2ceef0;
+    background-color: rgba(0,0,0,.5);
+    
+  }
+  
+  .addPayment1:hover {
+    border-color: #2ceef0;
+    background: #2ceef0;
+  } 
+  
+   .addPayment:active {
+    border: 1px solid #2ceef0;
+  }

@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap");
+
+.container-pay {
+    margin-top: 4%;
+    width: 39%; 
+    padding: 5px 5px 15px 10px;
+    border: 3px solid #2ceef0;
+    border-radius: 10px;
+    margin-left: 25%;
+    background-color: rgba(0,0,0,.5);
+}
+.wrapper3 {
+    margin: 20px 0 20px 20px;
+    position: center;
+}
+.lbl-tb {
+    color: #2ceef0;
+    font-size: 15px;
+    text-transform: uppercase; 
+    font-family: 'Poppins', sans-serif;
+}
+
+  .tb {
+    width: 300px;
+    font-size: 19px;
+  }
+  input:-webkit-autofill,
+  input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+  }
+  .addPayment3 {
+    width: 300px;
+    height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.2s
+  }
+  
+  .addPayment3:hover {
+    border-color: #2ceef0;
+    background: #2ceef0;
+  }
+  
+  .addPayment3:active {
+    border: 1px solid #2ceef0;
+  }

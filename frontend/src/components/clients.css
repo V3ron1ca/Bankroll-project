@@ -1,0 +1,12 @@
+.updateClientButton {
+  width: 300px;
+  height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px; 
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid #2ceef0;
+  background-color: rgba(0,0,0,.5);
+  
+}
+

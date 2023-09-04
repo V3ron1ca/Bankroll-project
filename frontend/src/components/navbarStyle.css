@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&display=swap');
+
+
+.nav-link:hover {
+    color: white;
+
+  }
+
+.nav{
+    background: dark;
+}
+
+.css-1j8o68f {
+    margin-left: 20px;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    max-width: 1000px;
+    justify-content: space-between;
+    text-align: center;
+  }
+  li {
+    padding: 1rem 2rem 1.15rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ebebeb;
+    min-width: 80px;
+    margin: auto;
+  }
+  
+  li:hover {
+    background-size: 100% 100%;
+    color: #09b3d1;
+    animation: spring 300ms ease-out;
+    font-weight: bold;
+    font-family: Calibri;
+    text-transform: uppercase;
+  }
+  li:active {
+    transform: translateY(4px);
+  } 

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.name {
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:30px;
+    margin-left: 40%;
+}
+.name2 {
+    margin: 20px;
+    margin-left: 32%;
+}
+.name1 {
+    margin: 20px;
+    margin-left: 40%;
+}
+.click-go {
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    color:#2ceef0;
+    text-align: center;
+}
+
+.click-go:hover{
+    color:#c77dff;
+    text-decoration: none;
+    text-align: center;
+}
+.appellation {
+    font-size:18px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.little-left {
+    margin-left: 4%;
+}
+td {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}

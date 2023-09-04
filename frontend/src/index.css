@@ -1,0 +1,16 @@
+
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap");
+
+    html, body {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("./images/main-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-attachment: fixed;
+  }
+
+

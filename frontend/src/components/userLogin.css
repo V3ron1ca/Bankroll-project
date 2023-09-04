@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap");
+
+.login-container {
+  background-image: url("../images/background.png")!important;
+  background-size: cover;
+  background-position: center;
+  background-color: none;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 879px;
+}
+
+#first {
+  width: 350px;
+  height: 10px;
+  position: absolute;
+  top: 45%;
+  left: 39%;
+  text-align: center;
+}
+
+.loginFormstyle {
+  background-color: black;
+  border-radius: 15px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0,0,0,.5)
+}
+
+.form-label {
+  color: #2ceef0;
+  font-size: 15px;
+  text-transform: uppercase; 
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  position:center;
+  margin-top: 10px;
+}
+
+.Button2 {
+  width: 100px;
+  height: 40px;
+  margin-top: 9px;
+  text-transform: uppercase;
+  letter-spacing: 2px; 
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ca1414;
+  background-color: white;
+}

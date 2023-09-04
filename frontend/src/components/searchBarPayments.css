@@ -1,0 +1,30 @@
+.search-bar-payments {
+    width: 100%;
+    max-width: 600px;
+    background: rgba(51, 46, 46, 0.5);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    }
+    
+    .search-bar-payments input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 5px 2px;
+    font-size: 15px;
+    color: #1108bb;
+    }
+    
+    ::placeholder {
+        color: blueviolet;
+    }
+    
+    .search-bar-payments button {
+        border-radius: 50%;
+    }

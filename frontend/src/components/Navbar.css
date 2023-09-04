@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&display=swap');
+
+
+.nav-link2 {
+    color: rgba(0, 225, 255, 0.54);
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 20px;
+  }
+  

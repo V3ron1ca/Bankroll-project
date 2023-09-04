@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap");
+
+.row2 {
+  max-width: 500px;
+  margin-top: 30px;
+}
+.table {
+  width: 500px;
+}
+.form-select{
+  margin-left: 30px;
+}
+.add-tax-row {
+  margin-left:auto;
+  margin-right:auto;
+  width:960px;
+  margin-right: 25px;
+}
+.tax-container-form{
+  color: #030303;
+  background-color: rgba(0,0,0,.5);
+  margin: 5px;
+ 
+  padding: 5px;
+  border: 1px solid #2ceef0;
+  border-radius: 15px;
+  outline: none;
+  font-family: Calibri;
+  margin-top: 1%;
+  padding: 5px 5px 15px 10px;
+  border: 2px solid #2ceef0;
+}
+
+
+.wrapper {
+    margin: 0 0 20px 0;
+    position: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.lbl-tb {
+    color: #2ceef0;
+    font-size: 15px;
+    text-transform: uppercase; 
+    font-family: 'Poppins', sans-serif;
+}
+
+  
+  .tb {
+    width: 300px;
+    font-size: 19px;
+  }
+
+  .addTAX {
+    width: 300px;
+    height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid #2ceef0;
+    background-color: rgba(0,0,0,.5);
+    
+  }
+  
+  .addTAX:hover {
+    border-color: #2ceef0;
+    background: #2ceef0;
+  } 
+  
+   .addTAX:active {
+    border: 1px solid #2ceef0;
+  }
+
+  .button-tax {
+    background-color: #fff;
+    border: 0 solid #e2e8f0;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    color: #0d172a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 0.4rem;
+    font-weight: 600;
+    line-height: 0.5;
+    padding: 1rem 1.6rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+  } 
+  
+   .button-tax:hover {
+    background-color: #1e293b;
+    color: #fff;
+  }
+  
+  @media (min-width: 768px) {
+    .button-tax{
+      font-size: 1rem;
+      padding: 1rem 2rem;
+    }
+  }
+
